@@ -11,9 +11,9 @@
               <ul>
                   <li><a class="nav-link scrollto active" href="{{route('home')}}">Inicio</a></li>
                   <li><a class="nav-link scrollto" href="{{route('client')}}">Clientes</a></li>
-                  <li><a class="nav-link scrollto" href="./pagmodulos.html">Módulos</a></li>
-                  <li><a class="nav-link scrollto" href="./pagplanes.html">Planes</a></li>
-                  <li><a class="nav-link scrollto" href="./pagsectores.html">Sectores</a></li>
+                  <li><a class="nav-link scrollto" href="{{route('modules')}}">Módulos</a></li>
+                  <li><a class="nav-link scrollto" href="{{route('plan')}}">Planes</a></li>
+                  <li><a class="nav-link scrollto" href="{{route('sector')}}">Sectores</a></li>
                   <!-- <li><a class="nav-link scrollto" href="./pagsectores.html">Consultar Comprobante</a></li> -->
                   <li><a class="nav-link scrollto active" href="https://allinerpsoftware.com/consulta.cpe"
                           target="_blank">Consultar CPE</a></li>
