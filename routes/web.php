@@ -13,4 +13,6 @@
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
+
+Route::get('/client', 'ClientController@index')->name('client');

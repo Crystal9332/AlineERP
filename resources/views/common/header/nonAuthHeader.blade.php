@@ -9,8 +9,8 @@
 
           <nav id="navbar" class="navbar">
               <ul>
-                  <li><a class="nav-link scrollto active" href="./index.html">Inicio</a></li>
-                  <li><a class="nav-link scrollto" href="./pagclientes.html">Clientes</a></li>
+                  <li><a class="nav-link scrollto active" href="{{route('home')}}">Inicio</a></li>
+                  <li><a class="nav-link scrollto" href="{{route('client')}}">Clientes</a></li>
                   <li><a class="nav-link scrollto" href="./pagmodulos.html">Módulos</a></li>
                   <li><a class="nav-link scrollto" href="./pagplanes.html">Planes</a></li>
                   <li><a class="nav-link scrollto" href="./pagsectores.html">Sectores</a></li>
