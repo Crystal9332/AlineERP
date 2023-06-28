@@ -19,8 +19,8 @@
                           target="_blank">Consultar CPE</a></li>
                   <li class="dropdown"><a href="#"><span>Producto</span> <i class="bi bi-chevron-down"></i></a>
                       <ul>
-                          <li><a href="./paspectos.html">Aspectos Técnicos</a></li>
-                          <li><a href="./perp.html">Implementar ERP</a></li>
+                          <li><a href="{{route('paspectos')}}">Aspectos Técnicos</a></li>
+                          <li><a href="{{route('perp')}}">Implementar ERP</a></li>
                           <li><a href="https://sistema.pseperu.pe/pages/login" target="_blank">Sistema PSEPERÚ</a>
                           </li>
                       </ul>

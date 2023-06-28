@@ -19,3 +19,5 @@ Route::get('/client', 'ClientController@index')->name('client');
 Route::get('/modules', 'ModulesController@index')->name('modules');
 Route::get('/plan', 'PlanController@index')->name('plan');
 Route::get('/sector', 'SectorController@index')->name('sector');
+Route::get('/paspectos', 'PaspectosController@index')->name('paspectos');
+Route::get('/perp', 'PerpController@index')->name('perp');
